@@ -1,0 +1,2 @@
+# Content-addressed: sha256 in index.json is over exact bytes. Never convert EOL.
+*.json text eol=lf
