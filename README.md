@@ -21,7 +21,7 @@
 <p align="center">
   <a href="https://mikesailab.com/taskhub-registry/index.json"><img src="https://img.shields.io/badge/served_via-GitHub_Pages-2ea44f?style=for-the-badge&logo=githubpages&logoColor=white" alt="Served via GitHub Pages"></a>
   <img src="https://img.shields.io/badge/schema-Registry_v1-8B5CF6?style=for-the-badge" alt="Schema: Registry v1">
-  <img src="https://img.shields.io/badge/templates-24-0078D4?style=for-the-badge" alt="24 templates">
+  <img src="https://img.shields.io/badge/templates-33-0078D4?style=for-the-badge" alt="33 templates">
 </p>
 
 <p align="center">
@@ -51,7 +51,7 @@ A running TaskHub backend points `TEMPLATE_REGISTRY_URL` at that address, fetche
 | `.nojekyll` | Tells GitHub Pages to serve the files raw (no Jekyll processing). |
 | `.gitattributes` | Pins every file to **LF** line endings — the `sha256` is computed over exact bytes, so a CRLF rewrite would break every checksum. |
 
-Today the catalog holds **24 templates** — 20 parameterized script starters (PowerShell / Bash / Python / Node / executable / HTTP / …) and 4 use-case patterns (database backup, system cleanup, news digest, PR triage).
+Today the catalog holds **33 templates** — 20 parameterized script starters (PowerShell / Bash / Python / Node / executable / HTTP / …) and 13 use-case patterns: database backup, system cleanup, news digest, PR triage, plus the **Developer Pack** (9 dev-workflow templates — git fetch-prune / maintenance / auto-commit, npm dependency-check / build / test, .NET build, Docker prune, and a Docker Compose self-heal — all tagged `dev` for one-tap discovery).
 
 ## 🔌 How TaskHub consumes it
 
