@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="README.md"><img src="https://img.shields.io/badge/↩-template_resources-6B7280?style=for-the-badge" alt="Back to Template Resources"></a>
+  <a href="../README.md"><img src="https://img.shields.io/badge/↩-resources-6B7280?style=for-the-badge" alt="Back to Resources"></a>
 </p>
 
 ---
@@ -23,7 +23,7 @@
 ---
 
 <p align="center">
-  <a href="README.md">← Template Resources</a> ·
+  <a href="../README.md">← Resources</a> ·
   <a href="../../../README.md">Registry root</a> ·
   <a href="https://mikesailab.com/taskhub-registry/">Browse the gallery</a>
 </p>
