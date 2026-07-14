@@ -8,17 +8,17 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/type-curated_links-8B5CF6?style=for-the-badge" alt="Curated links">
-  <a href="../../README.md"><img src="https://img.shields.io/badge/↩-registry_root-6B7280?style=for-the-badge" alt="Back to registry root"></a>
+  <a href="../../../README.md"><img src="https://img.shields.io/badge/↩-registry_root-6B7280?style=for-the-badge" alt="Back to registry root"></a>
 </p>
 
 ---
 
 ## 🧭 What this is
 
-A curated map of **places to source scheduled-task and automation ideas** — cron jobs, PowerShell/Bash/Python scripts, AI-agent routines, and workflow patterns — that can be adapted into [Registry v1](../../README.md#-template-schema-registry-v1) templates for TaskHub.
+A curated map of **places to source scheduled-task and automation ideas** — cron jobs, PowerShell/Bash/Python scripts, AI-agent routines, and workflow patterns — that can be adapted into [Registry v1](../../../README.md#-template-schema-registry-v1) templates for TaskHub.
 
 > [!NOTE]
-> A TaskHub template is **target-agnostic** (a trigger + an action + `{{placeholders}}`) and runs **no-shell** by design. When adapting anything below, keep the command structured (`{executable, args[]}` or an explicit `cmd.exe /c` / `powershell -Command` opt-in) and pull user-specific bits out into parameters. See the [schema](../../README.md#-template-schema-registry-v1) before authoring, and **[open an issue](https://github.com/michaelschecht/taskhub-registry/issues)** to propose one.
+> A TaskHub template is **target-agnostic** (a trigger + an action + `{{placeholders}}`) and runs **no-shell** by design. When adapting anything below, keep the command structured (`{executable, args[]}` or an explicit `cmd.exe /c` / `powershell -Command` opt-in) and pull user-specific bits out into parameters. See the [schema](../../../README.md#-template-schema-registry-v1) before authoring, and **[open an issue](https://github.com/michaelschecht/taskhub-registry/issues)** to propose one.
 
 ## 📅 Scheduling & cron references
 
@@ -91,12 +91,12 @@ Adapt the *idea* (trigger + steps) into a scheduled command; these are mostly Sa
 1. Pick an automation and reduce it to a **command** + a **schedule**.
 2. Pull the machine-specific bits (paths, names, URLs) out into **`{{placeholders}}`** with `parameters`.
 3. Keep it **no-shell** where possible (`{executable, args[]}`); opt into a shell explicitly only for redirection/pipes (`cmd.exe /c "…"`, `powershell.exe -Command "…"`).
-4. Match the [Registry v1 schema](../../README.md#-template-schema-registry-v1), then **[open an issue](https://github.com/michaelschecht/taskhub-registry/issues)** to propose it — or import it straight into your own TaskHub via the [gallery](https://mikesailab.com/taskhub-registry/).
+4. Match the [Registry v1 schema](../../../README.md#-template-schema-registry-v1), then **[open an issue](https://github.com/michaelschecht/taskhub-registry/issues)** to propose it — or import it straight into your own TaskHub via the [gallery](https://mikesailab.com/taskhub-registry/).
 
 ---
 
 <p align="center">
-  <a href="../../README.md">← TaskHub Template Registry</a> ·
+  <a href="../../../README.md">← TaskHub Template Registry</a> ·
   <a href="https://mikesailab.com/taskhub-registry/">Browse the gallery</a> ·
   <a href="https://github.com/michaelschecht/taskhub-registry/issues">Propose a template</a>
 </p>

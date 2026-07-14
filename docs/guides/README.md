@@ -43,7 +43,7 @@ Gallery (this registry)  ──Download / Copy──►  TaskHub · Templates �
 
 <p align="center">
   <a href="../../README.md">← TaskHub Template Registry</a> ·
-  <a href="../template-resources/README.md">Template Resources</a> ·
+  <a href="../resources/README.md">Template Resources</a> ·
   <a href="https://mikesailab.com/taskhub-registry/">Browse the gallery</a>
 </p>
 
