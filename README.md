@@ -21,7 +21,7 @@
 <p align="center">
   <a href="https://mikesailab.com/taskhub-registry/index.json"><img src="https://img.shields.io/badge/served_via-GitHub_Pages-2ea44f?style=for-the-badge&logo=githubpages&logoColor=white" alt="Served via GitHub Pages"></a>
   <img src="https://img.shields.io/badge/schema-Registry_v1-8B5CF6?style=for-the-badge" alt="Schema: Registry v1">
-  <img src="https://img.shields.io/badge/templates-33-0078D4?style=for-the-badge" alt="33 templates">
+  <a href="https://mikesailab.com/taskhub-registry/"><img src="https://img.shields.io/badge/templates-55-0078D4?style=for-the-badge" alt="55 templates"></a>
 </p>
 
 <p align="center">
@@ -51,7 +51,9 @@ A running TaskHub backend points `TEMPLATE_REGISTRY_URL` at that address, fetche
 | `.nojekyll` | Tells GitHub Pages to serve the files raw (no Jekyll processing). |
 | `.gitattributes` | Pins every file to **LF** line endings — the `sha256` is computed over exact bytes, so a CRLF rewrite would break every checksum. |
 
-Today the catalog holds **33 templates** — 20 parameterized script starters (PowerShell / Bash / Python / Node / executable / HTTP / …) and 13 use-case patterns: database backup, system cleanup, news digest, PR triage, plus the **Developer Pack** (9 dev-workflow templates — git fetch-prune / maintenance / auto-commit, npm dependency-check / build / test, .NET build, Docker prune, and a Docker Compose self-heal — all tagged `dev` for one-tap discovery).
+Today the catalog holds **55 templates** — 20 parameterized script starters (PowerShell / Bash / Python / Node / executable / HTTP / …), use-case patterns (database backup, system cleanup, news digest, PR triage), the **Developer Pack** (git / npm / .NET / Docker), the **AI Pack** (Claude Code + Codex unattended runs), and an **Extended Pack** (system/backup/cleanup/monitoring/data/notification — service restart, folder-zip & robocopy backups, disk/ping monitors, rclone cloud sync, Discord webhook, and more).
+
+Each entry is flagged **`core`** or extended. A small curated **core** ships built into TaskHub and auto-syncs into every install by default; the rest are **extended** — browse them here and import the ones you want.
 
 ## 🔌 How TaskHub consumes it
 
@@ -112,9 +114,13 @@ That means **template content here is generated, not hand-edited** — an edit t
 
 To propose a new template or a change, **[open an issue](https://github.com/michaelschecht/taskhub-registry/issues)** describing the automation (trigger, command, parameters, target).
 
+## 🖼️ Browse the gallery
+
+A **browsable gallery site** over this registry is live at **[`mikesailab.com/taskhub-registry`](https://mikesailab.com/taskhub-registry/)** — search and filter by category / platform / runtime / tag / availability, preview any template, then **Download** or **Copy** its JSON and **import** it into your local TaskHub (Templates → Import). Built-in `core` templates are badged so you can see what you already have vs. what to add.
+
 ## 🗺️ Where this is heading
 
-Right now a TaskHub install auto-syncs this whole catalog. As the catalog grows toward hundreds of templates (developer, AI/agent, and the full automation taxonomy), the plan is a **browsable gallery site** over this registry — search and filter the catalog, then **import** just the templates you want into your local TaskHub (the app already supports importing template JSON). This repo is the backing store for that gallery, and the natural home for community-contributed templates once TaskHub goes public.
+This repo is the backing store for the gallery and the natural home for community-contributed templates. Next up: a one-click "Add to my TaskHub" handoff (today it's Download/Copy → Import), and a curated-core-vs-gallery split so an install ships only the essentials and pulls the rest on demand — **already in place** via the `core` flag.
 
 ## 🔗 Links
 
