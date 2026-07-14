@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="README.md"><img src="https://img.shields.io/badge/↩-guides-6B7280?style=for-the-badge" alt="Back to guides"></a>
+  <a href="../README.md"><img src="https://img.shields.io/badge/↩-guides-6B7280?style=for-the-badge" alt="Back to guides"></a>
 </p>
 
 ---
@@ -50,14 +50,14 @@ There's no in-app template editor — you update by **re-importing**:
 
 ## Proposing a change to the public registry
 
-Found a bug in a built-in template, or want a new one added for everyone? **[Open an issue](https://github.com/michaelschecht/taskhub-registry/issues)** describing the automation (trigger, command, parameters, target) — or attach an [exported](exporting-templates.md) JSON. See also the [Template Resources](../template-resources/README.md) for good sources to adapt.
+Found a bug in a built-in template, or want a new one added for everyone? **[Open an issue](https://github.com/michaelschecht/taskhub-registry/issues)** describing the automation (trigger, command, parameters, target) — or attach an [exported](exporting-templates.md) JSON. See also the [Template Resources](../../template-resources/README.md) for good sources to adapt.
 
 ---
 
 <p align="center">
   <a href="exporting-templates.md">← Exporting templates</a> ·
-  <a href="README.md">Guides</a> ·
-  <a href="../../README.md">Registry root →</a>
+  <a href="../README.md">Guides</a> ·
+  <a href="../../../README.md">Registry root →</a>
 </p>
 
 <p align="right">(<a href="#updating-top">back to top</a>)</p>

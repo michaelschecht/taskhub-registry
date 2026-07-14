@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="README.md"><img src="https://img.shields.io/badge/↩-guides-6B7280?style=for-the-badge" alt="Back to guides"></a>
+  <a href="../README.md"><img src="https://img.shields.io/badge/↩-guides-6B7280?style=for-the-badge" alt="Back to guides"></a>
 </p>
 
 ---
@@ -43,7 +43,7 @@ A template may list other **compatible targets** (macOS, Claude Code, ChatGPT). 
 
 <p align="center">
   <a href="importing-templates.md">← Importing templates</a> ·
-  <a href="README.md">Guides</a> ·
+  <a href="../README.md">Guides</a> ·
   <a href="exporting-templates.md">Next: Exporting templates →</a>
 </p>
 

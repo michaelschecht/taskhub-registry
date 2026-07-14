@@ -19,13 +19,13 @@ A **template** is a reusable, parameterized automation — a schedule + a comman
 
 | Guide | What it covers |
 |:---|:---|
-| [**📥 Importing templates**](importing-templates.md) | Find a template in the [gallery](https://mikesailab.com/taskhub-registry/) and add it to your TaskHub. |
-| [**▶️ Applying templates**](applying-templates.md) | Turn a template into a real, running scheduled task by filling in its parameters. |
-| [**📤 Exporting templates**](exporting-templates.md) | Download your templates as JSON to back up, share, or hand-edit. |
-| [**🔄 Updating & managing templates**](updating-and-managing-templates.md) | How built-in vs. imported templates update, editing via re-import, favorites, and Save-as-template. |
+| [**📥 Importing templates**](template-guides/importing-templates.md) | Find a template in the [gallery](https://mikesailab.com/taskhub-registry/) and add it to your TaskHub. |
+| [**▶️ Applying templates**](template-guides/applying-templates.md) | Turn a template into a real, running scheduled task by filling in its parameters. |
+| [**📤 Exporting templates**](template-guides/exporting-templates.md) | Download your templates as JSON to back up, share, or hand-edit. |
+| [**🔄 Updating & managing templates**](template-guides/updating-and-managing-templates.md) | How built-in vs. imported templates update, editing via re-import, favorites, and Save-as-template. |
 
 > [!TIP]
-> The two fastest things to know: **[Import](importing-templates.md)** to add a template, **[Apply](applying-templates.md)** to run it. Everything else is optional polish.
+> The two fastest things to know: **[Import](template-guides/importing-templates.md)** to add a template, **[Apply](template-guides/applying-templates.md)** to run it. Everything else is optional polish.
 
 ## 🧩 How it fits together
 

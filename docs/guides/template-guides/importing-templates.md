@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="README.md"><img src="https://img.shields.io/badge/↩-guides-6B7280?style=for-the-badge" alt="Back to guides"></a>
+  <a href="../README.md"><img src="https://img.shields.io/badge/↩-guides-6B7280?style=for-the-badge" alt="Back to guides"></a>
 </p>
 
 ---
@@ -34,7 +34,7 @@ In the TaskHub app:
 2. Click **Import**.
 3. Select the `<id>.json` file you downloaded.
 
-TaskHub validates the file the same way it validates every built-in template — the [Registry v1 schema](../../README.md#-template-schema-registry-v1) **plus** a `{{placeholder}}` resolvability check — then adds it to your catalog. You'll see a toast like **`1 added, 0 updated, 0 skipped`**. The template now appears in your Templates tab, ready to [**Apply**](applying-templates.md).
+TaskHub validates the file the same way it validates every built-in template — the [Registry v1 schema](../../../README.md#-template-schema-registry-v1) **plus** a `{{placeholder}}` resolvability check — then adds it to your catalog. You'll see a toast like **`1 added, 0 updated, 0 skipped`**. The template now appears in your Templates tab, ready to [**Apply**](applying-templates.md).
 
 > [!TIP]
 > The import accepts a **single template**, an **array**, or a full **`{ templates: [...] }` bundle** — so you can import many at once (e.g. a whole [export](exporting-templates.md) from another machine).
@@ -57,7 +57,7 @@ TaskHub validates the file the same way it validates every built-in template —
 ---
 
 <p align="center">
-  <a href="README.md">← Guides</a> ·
+  <a href="../README.md">← Guides</a> ·
   <a href="applying-templates.md">Next: Applying templates →</a>
 </p>
 
