@@ -126,6 +126,8 @@ This repo is the backing store for the gallery and the natural home for communit
 
 | | |
 |:---|:---|
+| [**📚 Template Guides**](docs/guides/README.md) | How to import, apply, export, and update templates. |
+| [**🧰 Template Resources**](docs/template-resources/README.md) | Where to find & adapt automation templates. |
 | [**Live catalog (index.json)**](https://mikesailab.com/taskhub-registry/index.json) | The manifest this registry serves. |
 | [**Issues**](https://github.com/michaelschecht/taskhub-registry/issues) | Report a problem or request/propose a template. |
 | [**TaskHub**](https://mikesailab.com) | The app this catalog powers. |
